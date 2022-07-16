@@ -1,0 +1,72 @@
+import java.util.*;
+public class dtr{
+	public static void main(String [] args){
+
+	   System.out.println("User Information");
+
+        //user input
+        Scanner input = new Scanner(System.in);
+
+        //initial variable
+        int UserID;
+        int UserAge;
+        int UserContact;
+        String LastName;
+        String FirstName;
+        String MiddleInitial;
+        String UserAddress;
+
+        System.out.println("Enter your ID");
+        UserID = input.nextInt();
+        System.out.println("Enter your Age");
+        UserAge = input.nextInt();
+        System.out.println("Enter your Contact Number");
+        UserContact = input.nextInt();
+        System.out.println("Enter your Last Name");
+        LastName = input.next();
+        System.out.println("Enter your First Name");
+        FirstName = input.next();
+        System.out.println("Enter your Middle Name");
+        MiddleInitial = input.next();
+        System.out.println("Enter your Address");
+        UserAddress = input.next();
+
+        System.out.println("UserID: "+ UserID);
+        System.out.println("UserAge: "+ UserAge);
+        System.out.println("UserContact: "+ UserContact);
+        System.out.println("LastName: "+ LastName);
+        System.out.println("FirstName: "+ FirstName);
+        System.out.println("MiddleInitial: "+ MiddleInitial);
+        System.out.println("UserAddress: "+ UserAddress);
+        
+        System.out.println("...................");
+
+        System.out.println("Sign in");
+
+         int timeIn;
+         int timeOut;
+
+         System.out.println("What time did you start to work?");
+         timeIn = input.nextInt();
+         System.out.println("What time did you end to work?");
+         timeOut = input.nextInt();
+
+         System.out.println("timeIn: "+ timeIn);
+         System.out.println("timeOut: "+ timeOut);
+
+         System.out.println("...................");
+
+         System.out.println("Log In");
+
+         int IDnumber;
+         int Password;
+
+         System.out.println("What is your ID Number?");
+         IDnumber = input.nextInt();
+         System.out.println("What is your Password?");
+         Password = input.nextInt();
+
+         System.out.println("IDnumber: "+ IDnumber);
+         System.out.println("Password: "+ Password);
+	}
+}
